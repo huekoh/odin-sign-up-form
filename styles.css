@@ -2,6 +2,12 @@ body {
     margin: 0px;
 }
 
+h3 {
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
 .container {
     overflow: hidden;
     display: flex;
@@ -9,23 +15,37 @@ body {
 
 .image {
     height: 100vh;
-    width: 35vw;
+    min-width: 36vw;
 }
 
 .content {
+    padding-top: 15vh;
+    background-color: rgb(237, 237, 237);
+}
+
+.content-section {
     padding-left: 4vw;
     padding-right: 16vw;
 }
 
+.form-section {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 100%;
+    background-color: white;
+}
+
 .form {
-    width: 35vw;
+    width: 44vw;
     gap: 2vw;
+    padding-left: 4vw;
+    padding-right: 16vw;
     display: flex;
     flex-wrap: wrap;
 }
 
 .form-field {
-    width: 15vw;
+    width: 20vw;
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
