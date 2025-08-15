@@ -18,8 +18,10 @@ body {
 }
 
 .form {
+    width: 35vw;
+    gap: 2vw;
     display: flex;
-    
+    flex-wrap: wrap;
 }
 
 .form-field {
@@ -27,4 +29,8 @@ body {
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
+}
+
+.form-field > label {
+    font-size: small;
 }
