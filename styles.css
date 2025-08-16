@@ -8,6 +8,20 @@ h3 {
     font-size: 20px;
 }
 
+br {
+    height: 12px;
+}
+
+button {
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
+    color: white;
+    padding: 12px 36px;
+    background-color: rgb(0, 128, 83);
+    border: none;
+    border-radius: 8px;
+}
+
 .container {
     overflow: hidden;
     display: flex;
@@ -25,32 +39,49 @@ h3 {
 
 .content-section {
     padding-left: 4vw;
-    padding-right: 16vw;
+    padding-right: 20vw;
 }
 
 .form-section {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 8px;
+    padding-bottom: 40px;
     width: 100%;
     background-color: white;
+    box-shadow: 0px 6px 4px rgb(192, 192, 192);
 }
 
 .form {
     width: 44vw;
-    gap: 2vw;
+    gap: 2vh 4vw;
     padding-left: 4vw;
-    padding-right: 16vw;
+    padding-right: 20vw;
     display: flex;
     flex-wrap: wrap;
 }
 
 .form-field {
-    width: 20vw;
+    width: 16vw;
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
 }
 
 .form-field > label {
-    font-size: small;
+    font-family: Inter, sans-serif;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: rgb(83, 83, 83);
+}
+
+.form-field > input {
+    border-color: rgb(207, 207, 207);
+    border-radius: 3px;
+    border-width: 1.2px;
+    border-style: solid;
+    padding: 4px 4px;
+    margin-top: 2px;
+}
+
+.three {
+    padding-top: 32px;
 }
