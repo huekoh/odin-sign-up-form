@@ -126,6 +126,16 @@ button {
     margin-top: 2px;
 }
 
+.form-field > input:focus {
+    outline: none;
+    border-color: #3B82F6;
+    box-shadow: 2px 2px 0 rgba(41, 87, 160, 0.2);
+}
+
+.form-field > input[type="password"]:invalid {
+    border-color: #EF4444;
+}
+
 .three {
     padding-top: 32px;
 }
